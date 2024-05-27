@@ -1,0 +1,38 @@
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.main{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+   
+}
+
+.main h2{
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: var(--color-primario);
+}
+
+.main img{
+    width: 40%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.main .boton-compra{
+    color: white;
+    text-decoration: none;
+    background-color: var(--color-primario);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main .boton-compra:hover{
+    background-color: var(--color-primario-dark);
+}
